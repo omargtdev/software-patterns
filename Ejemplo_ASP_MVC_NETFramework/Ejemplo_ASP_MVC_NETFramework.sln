@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33205.214
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ejemplo_ASP_MVC_NETFramework", "Ejemplo_ASP_MVC_NETFramework\Ejemplo_ASP_MVC_NETFramework.csproj", "{4E833A7E-D01D-4C81-AE00-D4F3741E5FC4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4E833A7E-D01D-4C81-AE00-D4F3741E5FC4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E833A7E-D01D-4C81-AE00-D4F3741E5FC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E833A7E-D01D-4C81-AE00-D4F3741E5FC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E833A7E-D01D-4C81-AE00-D4F3741E5FC4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {634EA3D3-2675-465D-95F1-7CF4B3078E57}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,12 @@
+﻿# Patron de Diseño DAO (Data Access Object)
+Este patron siempre va de la mano con el patron DTO, ya que necesita objetos de valor
+para poder insertar o extraer los datos de la fuente de datos.
+Este diseño dice que debe existir un objeto con los metodos CRUD por cada tabla de la BD.
+
+# Patron de Diseño DTO (Data Transfer Object)
+Aqui se crean los objetos de valores, su estructura solo contiene atributos,
+propiedades y constructores pero no puede hacer acciones, es como un molde de cada tabla.
+
+# Patron de Diseño Singleton (Aplicado a los fornularios)
+Este patron indica que solo puede existir una instancia de un objeto, en este caso, solo abra
+una instancia por cada formulario, es decir, no se puede abrir un formulario que ya esta abierto

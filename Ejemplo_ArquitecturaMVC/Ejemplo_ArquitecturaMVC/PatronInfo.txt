@@ -1,0 +1,15 @@
+﻿# Modelo
+Es el encargado de toda la logica del negocio (como se obtiene los datos, CRUD, etc). El unico que se comunica
+directamente es el controlador.
+Para realizar el acceso a la fuente de datos, se utilizo el patron DAO para que haga esta funcionalidad, y para darle
+valor a esos datos se utilizo el patron DTO, en el cual se contiene todas las entidades por cada tabla u objeto
+de informacion.
+
+# Vista
+La vista es aquel interfaz de usuario para la presentación, es decir, lo que va a visualizar. Esta
+solo se encarga de armar los componentes y diseño para el usuario.
+
+# Controlador
+El controlador es el intermediario entre todas las acciones de la vista, es decir, el es el que captura
+los eventos de la vista para luego hacer la respectiva peticion al modelo, una vez obtiene respuesta, lo
+refleja en la vista
